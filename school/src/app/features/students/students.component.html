@@ -1,0 +1,10 @@
+<div class="estudiante-container">
+  <app-generic-table
+    [columns]="columns"
+    [data]="estudiantes"
+    [showActions]="true"
+    (create)="add()"
+    (edit)="edit($event)"
+    (deletePermanent)="delete($event)">
+  </app-generic-table>
+</div>

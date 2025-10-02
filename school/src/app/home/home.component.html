@@ -1,0 +1,56 @@
+<div class="home-container">
+  <h1 class="home-title">🏫 Administración del Sistema Escolar</h1>
+  <p class="home-subtitle">
+    Bienvenido al panel de control. Selecciona una opción para gestionar.
+  </p>
+
+  <div class="cards-grid">
+    <mat-card class="home-card" (click)="goTo('colegios')">
+      <mat-icon class="card-icon">apartment</mat-icon>
+      <h2>Colegios</h2>
+      <p>Gestiona la información de los colegios.</p>
+    </mat-card>
+
+    <mat-card class="home-card" (click)="goTo('cursos')">
+      <mat-icon class="card-icon">class</mat-icon>
+      <h2>Cursos</h2>
+      <p>Organiza cursos, cupos y asignaturas.</p>
+    </mat-card>
+
+    <mat-card class="home-card" (click)="goTo('estudiantes')">
+      <mat-icon class="card-icon">group</mat-icon>
+      <h2>Estudiantes</h2>
+      <p>Administra la matrícula y sus notas.</p>
+    </mat-card>
+
+    <mat-card class="home-card" (click)="goTo('materias')">
+      <mat-icon class="card-icon">menu_book</mat-icon>
+      <h2>Materias</h2>
+      <p>Configura las materias impartidas.</p>
+    </mat-card>
+
+    <mat-card class="home-card" (click)="goTo('asignaturas')">
+      <mat-icon class="card-icon">book</mat-icon>
+      <h2>Asignaturas</h2>
+      <p>Relación de materias con cursos.</p>
+    </mat-card>
+
+    <mat-card class="home-card" (click)="goTo('salones')">
+      <mat-icon class="card-icon">meeting_room</mat-icon>
+      <h2>Salones</h2>
+      <p>Gestiona los espacios y su capacidad.</p>
+    </mat-card>
+
+    <mat-card class="home-card" (click)="goTo('periodos')">
+      <mat-icon class="card-icon">date_range</mat-icon>
+      <h2>Períodos</h2>
+      <p>Controla calendarios y porcentajes.</p>
+    </mat-card>
+
+     <mat-card class="home-card" (click)="goTo('notas')">
+      <mat-icon class="card-icon">date_range</mat-icon>
+      <h2>Notas</h2>
+      <p>Controla aqui tus notas.</p>
+    </mat-card>
+  </div>
+</div>

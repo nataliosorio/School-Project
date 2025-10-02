@@ -1,0 +1,10 @@
+<div class="materia-container">
+  <app-generic-table
+    [columns]="columns"
+    [data]="materias"
+    [showActions]="true"
+    (create)="add()"
+    (edit)="edit($event)"
+    (deletePermanent)="delete($event)">
+  </app-generic-table>
+</div>

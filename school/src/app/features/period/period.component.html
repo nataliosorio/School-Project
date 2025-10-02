@@ -1,0 +1,10 @@
+<div class="periodo-container">
+  <app-generic-table
+    [columns]="columns"
+    [data]="periodos"
+    [showActions]="true"
+    (create)="add()"
+    (edit)="edit($event)"
+    (deletePermanent)="delete($event)">
+  </app-generic-table>
+</div>
