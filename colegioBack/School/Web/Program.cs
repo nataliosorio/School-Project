@@ -11,7 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// 🔹 Conexión a la BD (SQL Server en este caso)
+// 🔹 Conexión a la BD (SQL Server)
 builder.Services.AddDbContext<SchoolDbContext>(opt =>
     opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -19,14 +19,23 @@ builder.Services.AddDbContext<SchoolDbContext>(opt =>
 builder.Services.AddScoped(typeof(IData<>), typeof(DataGeneric<>));
 builder.Services.AddScoped(typeof(BusinessGeneric<,>));
 
-// 🔹 Si quieres servicios específicos para cada entidad, también se registran aquí
-// builder.Services.AddScoped<IColegioService, ColegioService>();
-// builder.Services.AddScoped<IAsignaturaService, AsignaturaService>();
-// builder.Services.AddScoped<INotaService, NotaService>();
-// builder.Services.AddScoped<IPeriodoService, PeriodoService>();
-
-// 🔹 AutoMapper (perfil que tengas configurado)
+// 🔹 AutoMapper
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
+
+// 🔹 🔥 Configuración de CORS 🔥
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("PermitirFrontend", policy =>
+    {
+        policy
+            .WithOrigins(
+                "http://localhost:4200", // Angular
+                "http://localhost:8100"  // Ionic
+            )
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
 
@@ -42,6 +51,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// ⚡ Habilita la política CORS ANTES de los controladores
+app.UseCors("PermitirFrontend");
+
 app.UseAuthorization();
 app.MapControllers();
 

@@ -1,4 +1,31 @@
 <div class="colegio-container">
+
+  <!-- Formulario para agregar o editar un colegio -->
+  <div *ngIf="showForm" class="add-form">
+    <h3>{{ editMode ? 'Editar Colegio' : 'Agregar Nuevo Colegio' }}</h3>
+    <form (ngSubmit)="saveColegio()" #colegioForm="ngForm">
+      <mat-form-field appearance="outline">
+        <mat-label>Nombre</mat-label>
+        <input matInput [(ngModel)]="newColegio.nombre" name="nombre" required>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Máximo de Estudiantes</mat-label>
+        <input matInput type="number" [(ngModel)]="newColegio.maxEstudiantes" name="maxEstudiantes" required>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Máximo de Cursos</mat-label>
+        <input matInput type="number" [(ngModel)]="newColegio.maxCursos" name="maxCursos" required>
+      </mat-form-field>
+
+      <div>
+        <button mat-raised-button color="primary" type="submit" [disabled]="!colegioForm.valid">Guardar</button>
+        <button mat-raised-button color="accent" type="button" (click)="cancel()">Cancelar</button>
+      </div>
+    </form>
+  </div>
+
   <app-generic-table
     [columns]="columns"
     [data]="colegios"

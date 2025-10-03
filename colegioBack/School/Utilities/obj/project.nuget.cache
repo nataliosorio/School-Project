@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ROnnyEme8vg=",
+  "dgSpecHash": "x2MW2wEfkfI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Utilities\\Utilities.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Utilities\\Utilities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Natalia osorio\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.300\\microsoft.net.sdk.compilers.toolset.9.0.300.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -21,3 +21,15 @@ C:\Users\Camilo\Pictures\Api-Colegio\colegio\School\Diagram\obj\Debug\net9.0\Dia
 C:\Users\Camilo\Pictures\Api-Colegio\colegio\School\Diagram\obj\Debug\net9.0\refint\Diagram.dll
 C:\Users\Camilo\Pictures\Api-Colegio\colegio\School\Diagram\obj\Debug\net9.0\Diagram.pdb
 C:\Users\Camilo\Pictures\Api-Colegio\colegio\School\Diagram\obj\Debug\net9.0\ref\Diagram.dll
+C:\c-sharp\School-Project\colegioBack\School\Diagram\bin\Debug\net9.0\Diagram.deps.json
+C:\c-sharp\School-Project\colegioBack\School\Diagram\bin\Debug\net9.0\Diagram.dll
+C:\c-sharp\School-Project\colegioBack\School\Diagram\bin\Debug\net9.0\Diagram.pdb
+C:\c-sharp\School-Project\colegioBack\School\Diagram\obj\Debug\net9.0\Diagram.GeneratedMSBuildEditorConfig.editorconfig
+C:\c-sharp\School-Project\colegioBack\School\Diagram\obj\Debug\net9.0\Diagram.AssemblyInfoInputs.cache
+C:\c-sharp\School-Project\colegioBack\School\Diagram\obj\Debug\net9.0\Diagram.AssemblyInfo.cs
+C:\c-sharp\School-Project\colegioBack\School\Diagram\obj\Debug\net9.0\Diagram.csproj.CoreCompileInputs.cache
+C:\c-sharp\School-Project\colegioBack\School\Diagram\obj\Debug\net9.0\Diagram.sourcelink.json
+C:\c-sharp\School-Project\colegioBack\School\Diagram\obj\Debug\net9.0\Diagram.dll
+C:\c-sharp\School-Project\colegioBack\School\Diagram\obj\Debug\net9.0\refint\Diagram.dll
+C:\c-sharp\School-Project\colegioBack\School\Diagram\obj\Debug\net9.0\Diagram.pdb
+C:\c-sharp\School-Project\colegioBack\School\Diagram\obj\Debug\net9.0\ref\Diagram.dll

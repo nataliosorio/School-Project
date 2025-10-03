@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Web\\Web.csproj": {}
+    "C:\\c-sharp\\School-Project\\colegioBack\\School\\Web\\Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Business\\Business.csproj": {
+    "C:\\c-sharp\\School-Project\\colegioBack\\School\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\Camilo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Business\\obj\\",
+        "projectPath": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\Natalia osorio\\.nuget\\packages\\",
+        "outputPath": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Camilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Natalia osorio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,18 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Data\\Data.csproj"
+              "C:\\c-sharp\\School-Project\\colegioBack\\School\\Data\\Data.csproj": {
+                "projectPath": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Data\\Data.csproj"
               },
-              "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Entity\\Entity.csproj"
+              "C:\\c-sharp\\School-Project\\colegioBack\\School\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Entity\\Entity.csproj"
               }
             }
           }
@@ -74,29 +73,35 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.300, 9.0.300]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Data\\Data.csproj": {
+    "C:\\c-sharp\\School-Project\\colegioBack\\School\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\Camilo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Data\\obj\\",
+        "projectPath": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Natalia osorio\\.nuget\\packages\\",
+        "outputPath": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Camilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Natalia osorio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -105,15 +110,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Entity\\Entity.csproj"
+              "C:\\c-sharp\\School-Project\\colegioBack\\School\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Entity\\Entity.csproj"
               }
             }
           }
@@ -154,29 +158,35 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.300, 9.0.300]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Diagram\\Diagram.csproj": {
+    "C:\\c-sharp\\School-Project\\colegioBack\\School\\Diagram\\Diagram.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Diagram\\Diagram.csproj",
+        "projectUniqueName": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Diagram\\Diagram.csproj",
         "projectName": "Diagram",
-        "projectPath": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Diagram\\Diagram.csproj",
-        "packagesPath": "C:\\Users\\Camilo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Diagram\\obj\\",
+        "projectPath": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Diagram\\Diagram.csproj",
+        "packagesPath": "C:\\Users\\Natalia osorio\\.nuget\\packages\\",
+        "outputPath": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Diagram\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Camilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Natalia osorio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -185,7 +195,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -220,29 +229,35 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.300, 9.0.300]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Entity\\Entity.csproj": {
+    "C:\\c-sharp\\School-Project\\colegioBack\\School\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Entity\\Entity.csproj",
-        "packagesPath": "C:\\Users\\Camilo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Entity\\obj\\",
+        "projectPath": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Entity\\Entity.csproj",
+        "packagesPath": "C:\\Users\\Natalia osorio\\.nuget\\packages\\",
+        "outputPath": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Camilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Natalia osorio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -251,7 +266,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -289,6 +303,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.9, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.9, )"
             }
           },
           "imports": [
@@ -302,29 +320,35 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.300, 9.0.300]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Utilities\\Utilities.csproj": {
+    "C:\\c-sharp\\School-Project\\colegioBack\\School\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
-        "projectPath": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Utilities\\Utilities.csproj",
-        "packagesPath": "C:\\Users\\Camilo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Utilities\\obj\\",
+        "projectPath": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Utilities\\Utilities.csproj",
+        "packagesPath": "C:\\Users\\Natalia osorio\\.nuget\\packages\\",
+        "outputPath": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Camilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Natalia osorio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -333,7 +357,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -368,29 +391,35 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.300, 9.0.300]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Web\\Web.csproj": {
+    "C:\\c-sharp\\School-Project\\colegioBack\\School\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Web\\Web.csproj",
-        "packagesPath": "C:\\Users\\Camilo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Web\\obj\\",
+        "projectPath": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Web\\Web.csproj",
+        "packagesPath": "C:\\Users\\Natalia osorio\\.nuget\\packages\\",
+        "outputPath": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Camilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Natalia osorio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -399,27 +428,26 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Business\\Business.csproj"
+              "C:\\c-sharp\\School-Project\\colegioBack\\School\\Business\\Business.csproj": {
+                "projectPath": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Business\\Business.csproj"
               },
-              "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Data\\Data.csproj"
+              "C:\\c-sharp\\School-Project\\colegioBack\\School\\Data\\Data.csproj": {
+                "projectPath": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Data\\Data.csproj"
               },
-              "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Diagram\\Diagram.csproj": {
-                "projectPath": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Diagram\\Diagram.csproj"
+              "C:\\c-sharp\\School-Project\\colegioBack\\School\\Diagram\\Diagram.csproj": {
+                "projectPath": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Diagram\\Diagram.csproj"
               },
-              "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Entity\\Entity.csproj": {
-                "projectPath": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Entity\\Entity.csproj"
+              "C:\\c-sharp\\School-Project\\colegioBack\\School\\Entity\\Entity.csproj": {
+                "projectPath": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Entity\\Entity.csproj"
               },
-              "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Utilities\\Utilities.csproj": {
-                "projectPath": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Utilities\\Utilities.csproj"
+              "C:\\c-sharp\\School-Project\\colegioBack\\School\\Utilities\\Utilities.csproj": {
+                "projectPath": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Utilities\\Utilities.csproj"
               }
             }
           }
@@ -478,6 +506,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.300, 9.0.300]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -486,7 +520,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

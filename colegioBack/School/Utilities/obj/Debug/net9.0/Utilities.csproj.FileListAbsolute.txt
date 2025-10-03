@@ -21,3 +21,15 @@ C:\Users\Camilo\Pictures\Api-Colegio\colegio\School\Utilities\obj\Debug\net9.0\U
 C:\Users\Camilo\Pictures\Api-Colegio\colegio\School\Utilities\obj\Debug\net9.0\refint\Utilities.dll
 C:\Users\Camilo\Pictures\Api-Colegio\colegio\School\Utilities\obj\Debug\net9.0\Utilities.pdb
 C:\Users\Camilo\Pictures\Api-Colegio\colegio\School\Utilities\obj\Debug\net9.0\ref\Utilities.dll
+C:\c-sharp\School-Project\colegioBack\School\Utilities\bin\Debug\net9.0\Utilities.deps.json
+C:\c-sharp\School-Project\colegioBack\School\Utilities\bin\Debug\net9.0\Utilities.dll
+C:\c-sharp\School-Project\colegioBack\School\Utilities\bin\Debug\net9.0\Utilities.pdb
+C:\c-sharp\School-Project\colegioBack\School\Utilities\obj\Debug\net9.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\c-sharp\School-Project\colegioBack\School\Utilities\obj\Debug\net9.0\Utilities.AssemblyInfoInputs.cache
+C:\c-sharp\School-Project\colegioBack\School\Utilities\obj\Debug\net9.0\Utilities.AssemblyInfo.cs
+C:\c-sharp\School-Project\colegioBack\School\Utilities\obj\Debug\net9.0\Utilities.csproj.CoreCompileInputs.cache
+C:\c-sharp\School-Project\colegioBack\School\Utilities\obj\Debug\net9.0\Utilities.sourcelink.json
+C:\c-sharp\School-Project\colegioBack\School\Utilities\obj\Debug\net9.0\Utilities.dll
+C:\c-sharp\School-Project\colegioBack\School\Utilities\obj\Debug\net9.0\refint\Utilities.dll
+C:\c-sharp\School-Project\colegioBack\School\Utilities\obj\Debug\net9.0\Utilities.pdb
+C:\c-sharp\School-Project\colegioBack\School\Utilities\obj\Debug\net9.0\ref\Utilities.dll

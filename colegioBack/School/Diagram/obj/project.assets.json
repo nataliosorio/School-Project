@@ -8,23 +8,23 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Camilo\\.nuget\\packages\\": {},
+    "C:\\Users\\Natalia osorio\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Diagram\\Diagram.csproj",
+      "projectUniqueName": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Diagram\\Diagram.csproj",
       "projectName": "Diagram",
-      "projectPath": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Diagram\\Diagram.csproj",
-      "packagesPath": "C:\\Users\\Camilo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Camilo\\Pictures\\Api-Colegio\\colegio\\School\\Diagram\\obj\\",
+      "projectPath": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Diagram\\Diagram.csproj",
+      "packagesPath": "C:\\Users\\Natalia osorio\\.nuget\\packages\\",
+      "outputPath": "C:\\c-sharp\\School-Project\\colegioBack\\School\\Diagram\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Camilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Natalia osorio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,7 +33,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -68,12 +67,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+            "version": "[9.0.300, 9.0.300]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -4,12 +4,7 @@ import { inject, Injectable } from '@angular/core';
 import { Observable, map, catchError, throwError } from 'rxjs';
 import { environment } from '../../../environments/environment.prod';
 
-export interface ApiResponse<T> {
-  data: T;
-  success: boolean;
-  message?: string;
-  details?: any;
-}
+
 
 @Injectable({ providedIn: 'root' })
 export class General {
